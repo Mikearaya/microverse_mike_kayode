@@ -7,15 +7,13 @@
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1>Hello World, we are software developers!</h1>
     <header id="header">
       <img
         src="https://www.designfreelogoonline.com/wp-content/uploads/2014/12/00240-Design-Free-3D-Company-Logo-Templates-03.png"
         id="header-img"
         alt=""
       />
-      <nav id="nav-bar">
+      <nav id="nav-bar" >
         <ul>
           <li><a href="#features" class="nav-link">Features</a></li>
           <li><a href="#works" class="nav-link">How It Works</a></li>
@@ -23,19 +21,33 @@
         </ul>
       </nav>
     </header>
-    <form action="https://www.freecodecamp.com/email-submit" id="form" method="POST">
-      <input type="email" name="email" id="email" placeholder="Subscribe" />
-      <input type="submit" id="submit">
-    </form>
-    <iframe
-      id="video"
-      width="598"
-      height="330"
-      src="https://www.youtube.com/embed/KPbKeNghRYE"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+
+    <div id="content">
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <h1>Hello World, we are software developers!</h1>
+        
+        <section id="features"></section>
+        <section id="works"></section>
+        <section id="pricing"></section>
+        <form action="https://www.freecodecamp.com/email-submit" id="form" method="POST">
+          <input type="email" name="email" id="email" placeholder="Subscribe" />
+          <input type="submit" id="submit">
+        </form>
+        <div class="flexbox">
+          <div>Element 1</div>
+          <div>Element 2</div>
+          <div>Element 3</div>
+        </div>
+        <iframe
+          id="video"
+          width="598"
+          height="330"
+          src="https://www.youtube.com/embed/KPbKeNghRYE"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+    </div>
 
     <!--
 
