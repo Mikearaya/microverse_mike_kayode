@@ -1,24 +1,22 @@
-#header{
-    background-color: aqua;
-    position: fixed;
-    top: 0;
-    width: 100%;
+#header {
+  background-color: aqua;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-#content{
-    display: inline;
+
+ul {
+  display: inline;
 }
-ul{
-    display: inline;
+@media screen and (max-width: 568px) {
+  body {
+    background-color: blue;
+  }
 }
-@media screen and (max-width:568px) {
-    body {
-        background-color:blue;
-    }
+.flexbox {
+  display: flex;
 }
-.flexbox{
-    display:flex;
-}
-img{
-    widows: 120px;
-    height: 120px;
+img {
+  widows: 120px;
+  height: 120px;
 }
